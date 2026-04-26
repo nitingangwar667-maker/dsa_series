@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 int maxProfit(vector<int>& prices) {
     int b1 = INT_MIN , b2 = INT_MIN;
