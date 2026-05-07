@@ -26,10 +26,12 @@ int main() {
     Solution sol;
     vector<int> arr = {0, 1, 2, 0, 1, 2,0,0,0,1,1,1,2,2,2};
     sol.sort012(arr);
+    
     cout << "Sorted array: ";
     for (int num : arr) {
         cout << num << " ";
     }
     cout << endl;
+    
     return 0;
 }
