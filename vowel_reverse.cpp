@@ -3,13 +3,13 @@
 #include <algorithm>
 #include <cctype>
 using namespace std;
+
 class Solution {
 public:
     bool isVowel(char c) {
         c = tolower(c);
         return c=='a' || c=='e' || c=='i' || c=='o' || c=='u';
     }
-
     string reverseVowels(string s) {
         int st = 0, end = s.size() - 1;
         while (st < end) {
